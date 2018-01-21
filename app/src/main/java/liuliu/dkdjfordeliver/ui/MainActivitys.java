@@ -168,7 +168,7 @@ public class MainActivitys extends BaseActivity implements IMainView, IMainFragV
             intent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
             startActivity(intent);
         });
-
+        isTG = Utils.getBooleanCache("istg");
         //启动定位服务
         //startLocationService();
 
@@ -271,9 +271,9 @@ public class MainActivitys extends BaseActivity implements IMainView, IMainFragV
             }
         };
         broadcastManager.registerReceiver(mItemViewListClickReceiver, intentFilter);
-        if (!isTG) {
-            userListener.getSHDetail();//获得审核信息
-        }
+        //if (!isTG) {
+        userListener.getSHDetail();//获得审核信息
+        //}
         //每隔30刷新一次列表列表的
         new Thread(new Runnable() {
             @Override
@@ -488,7 +488,7 @@ public class MainActivitys extends BaseActivity implements IMainView, IMainFragV
                     //3.给下载的文件指定路径
                     request.setDestinationInExternalFilesDir(MainActivitys.this, Environment.DIRECTORY_DOWNLOADS, "weixin.apk");
                     //4.设置显示在文件下载Notification（通知栏）中显示的文字。6.0的手机Description不显示
-                    request.setTitle("易快跑骑士版");
+                    request.setTitle(getResources().getString(R.string.app_name));
                     request.setDescription(content);
                     //5更改服务器返回的minetype为android包类型
                     request.setMimeType("application/vnd.android.package-archive");

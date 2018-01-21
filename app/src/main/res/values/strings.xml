@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">易快跑骑士版</string>
+    <string name="app_name">国警骑兵骑士版</string>
     <string name="up">绑定sdk</string>
     <string name="down">解绑sdk</string>
     <string name="no_clientid">(none)</string>

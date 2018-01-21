@@ -9,7 +9,7 @@
         android:id="@+id/title_bar"
         android:layout_width="match_parent"
         android:layout_height="55dp"
-        app:center_tv="易快跑骑士"
+        app:center_tv="@string/app_name"
         app:left_iv="@mipmap/sy_menu"
         app:right_have_sw="true" />
 

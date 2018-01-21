@@ -10,7 +10,7 @@ public class NormalMessageModel {
     /**
      * msg : 登录成功
      * userid : 31
-     * state : 1
+     * state : （1：开工。0：手工）
      * name : 丁玉强
      * newordercount : 0
      * ExpressOrdercount : 0

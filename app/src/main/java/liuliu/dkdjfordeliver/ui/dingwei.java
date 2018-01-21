@@ -57,7 +57,7 @@ public class dingwei extends Service implements AMapLocationListener {
         super.onCreate();
         Notification.Builder builder = new Notification.Builder(this);
         builder.setSmallIcon(R.mipmap.icon);
-        builder.setContentTitle("易快跑骑士版运行中...");
+        builder.setContentTitle(getResources().getString(R.string.app_name) + "运行中...");
         Notification notification = builder.build();
         startForeground(2, notification);
         am = (AlarmManager) getSystemService(ALARM_SERVICE);
