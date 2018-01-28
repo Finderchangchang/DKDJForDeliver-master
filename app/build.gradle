@@ -4,16 +4,16 @@ android {
     compileSdkVersion 23
     buildToolsVersion '25.0.0'
     defaultConfig {
-        applicationId "liuliu.dkdjfordeliver"
+        applicationId "liuliu.dkdjfordeliver.hei"
         minSdkVersion 14
         targetSdkVersion 23
         versionCode 1
         versionName "0.3.4"
         //参数说明
         manifestPlaceholders = [
-                GETUI_APP_ID    : "mDHWVojElMAhF4FS2kdgf8",
-                GETUI_APP_KEY   : "3HbhhytllxAwffF3aWW066",
-                GETUI_APP_SECRET: "tgCm9uqcVe6ugve7Y9mNV8",
+                GETUI_APP_ID    : "RXJIZqORPxAJ5xnUR1LGQ9",
+                GETUI_APP_KEY   : "TXthYoMymb93EQfaPDqPvA",
+                GETUI_APP_SECRET: "53NDxAwhtd908HV6ht8in8",
                 PACKAGE_NAME    : applicationId
         ]
         ndk {

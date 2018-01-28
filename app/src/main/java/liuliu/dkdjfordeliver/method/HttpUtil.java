@@ -12,7 +12,8 @@ import retrofit2.converter.gson.GsonConverterFactory;
  */
 
 public class HttpUtil {
-    public static final String BASE_URL = "http://kuaipao.myejq.com/";
+    //    public static final String BASE_URL = "http://kuaipao.myejq.com/";
+    public static final String BASE_URL = "www.gjqb110.com";
 
     private static final int DEFAULT_TIMEOUT = 5;
 
@@ -33,6 +34,7 @@ public class HttpUtil {
 
         return retrofit.create(GitHubAPI.class);
     }
+
     public static GitHubAPI loadBD() {
         //手动创建一个OkHttpClient并设置超时时间
         OkHttpClient httpClientBuilder = new OkHttpClient.Builder()
@@ -47,6 +49,7 @@ public class HttpUtil {
 
         return retrofit.create(GitHubAPI.class);
     }
+
     public static GitHubAPI loadbaidu() {
         //手动创建一个OkHttpClient并设置超时时间
         OkHttpClient httpClientBuilder = new OkHttpClient.Builder()
