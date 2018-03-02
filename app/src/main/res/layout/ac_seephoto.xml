@@ -33,7 +33,7 @@
             android:layout_centerHorizontal="true"
             android:layout_centerVertical="true"
             android:text="查看照片"
-            android:textColor="#11d7af"
+            android:textColor="@color/colorPrimary"
             android:textSize="23dp" />
 
 

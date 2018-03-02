@@ -178,7 +178,7 @@
         android:layout_width="match_parent"
         android:layout_height="49dp"
         android:layout_alignParentBottom="true"
-        android:background="#00D8E2"
+        android:background="@color/colorPrimary"
         android:text="接单"
         android:textColor="@color/white"
         android:textSize="20dp" />

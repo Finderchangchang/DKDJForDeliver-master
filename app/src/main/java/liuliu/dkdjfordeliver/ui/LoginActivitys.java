@@ -59,7 +59,7 @@ public class LoginActivitys extends BaseActivity implements ILoginView {
     public void initEvents() {
         builder = new AlertDialog.Builder(LoginActivitys.mInstance);
         title_bar.setLeftClick(() -> finish());
-        title_bar.setRightClick(() -> Utils.IntentPost(RegUserActivity.class, intent -> intent.putExtra("state", "账号注册")));
+        //title_bar.setRightClick(() -> Utils.IntentPost(RegUserActivity.class, intent -> intent.putExtra("state", "账号注册")));
         loginBtn.setOnClickListener(v -> {
             String tel = telEt.getText().toString().trim();
             String pwd = pwdEt.getText().toString().trim();

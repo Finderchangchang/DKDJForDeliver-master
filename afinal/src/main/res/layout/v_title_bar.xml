@@ -22,7 +22,7 @@
             android:layout_height="wrap_content"
             android:layout_centerInParent="true"
             android:text="关闭"
-            android:textColor="#00D8E2"
+            android:textColor="#016bb7"
             android:textSize="16sp" />
     </RelativeLayout>
 

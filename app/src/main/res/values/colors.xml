@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="colorPrimary">#00D8E2</color>
-    <color name="colorPrimaryDark">#00D8E2</color>
-    <color name="colorAccent">#00D8E2</color>
+    <color name="colorPrimary">#016bb7</color>
+    <color name="colorPrimaryDark">#016bb7</color>
+    <color name="colorAccent">#016bb7</color>
     <color name="line_bg">#F3F3F3</color>
     <color name="normal_lab">#343434</color>
     <color name="qian_lab">#A4A4A4</color>
@@ -10,6 +10,6 @@
     <color name="white">#fff</color>
     <color name="title_line">#D7D7D7</color>
     <color name="colorhuixian">#f1f1f1</color>
-    <color name="dk_blue">#00D8D8</color>
+    <color name="dk_blue">#016bb7</color>
     <color name="colorbai">#ffffff</color>
 </resources>

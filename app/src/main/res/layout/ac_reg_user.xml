@@ -23,7 +23,7 @@
         <ImageView
             android:layout_width="70dp"
             android:layout_height="70dp"
-            android:src="@mipmap/load_icon" />
+            android:src="@mipmap/ykplogoh" />
     </LinearLayout>
 
     <LinearLayout

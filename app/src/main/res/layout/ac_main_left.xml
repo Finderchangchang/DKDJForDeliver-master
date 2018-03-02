@@ -79,7 +79,7 @@
                 android:id="@+id/all_top_order_ll"
                 android:layout_width="match_parent"
                 android:layout_height="70dp"
-                android:background="#00D0DA"
+                android:background="@color/colorPrimary"
                 android:gravity="center"
                 android:orientation="horizontal">
 
