@@ -53,6 +53,16 @@ public class OrderModel {
     private String SJDaoYH;
     private String SendFee;
     private String Promotions;
+    private String dname;
+    private String dphone;
+    private String dglog;
+    private String dglat;
+
+    private String tiji;
+    private String zhongliang;
+    private String cheid;
+    private String chename;
+    private String chemoney;
 
 
     private String ImgOrder;//图片订单的图片字段
@@ -474,5 +484,77 @@ public class OrderModel {
 
     public void setSendFee(String sendFee) {
         SendFee = sendFee;
+    }
+
+    public String getDname() {
+        return dname;
+    }
+
+    public void setDname(String dname) {
+        this.dname = dname;
+    }
+
+    public String getDphone() {
+        return dphone;
+    }
+
+    public void setDphone(String dphone) {
+        this.dphone = dphone;
+    }
+
+    public String getDglog() {
+        return dglog;
+    }
+
+    public void setDglog(String dglog) {
+        this.dglog = dglog;
+    }
+
+    public String getDglat() {
+        return dglat;
+    }
+
+    public void setDglat(String dglat) {
+        this.dglat = dglat;
+    }
+
+    public String getTiji() {
+        return tiji;
+    }
+
+    public void setTiji(String tiji) {
+        this.tiji = tiji;
+    }
+
+    public String getZhongliang() {
+        return zhongliang;
+    }
+
+    public void setZhongliang(String zhongliang) {
+        this.zhongliang = zhongliang;
+    }
+
+    public String getCheid() {
+        return cheid;
+    }
+
+    public void setCheid(String cheid) {
+        this.cheid = cheid;
+    }
+
+    public String getChename() {
+        return chename;
+    }
+
+    public void setChename(String chename) {
+        this.chename = chename;
+    }
+
+    public String getChemoney() {
+        return chemoney;
+    }
+
+    public void setChemoney(String chemoney) {
+        this.chemoney = chemoney;
     }
 }

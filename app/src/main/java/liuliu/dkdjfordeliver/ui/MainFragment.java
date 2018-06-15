@@ -52,6 +52,9 @@ public class MainFragment extends Fragment implements IMainFragView {
                 String btn_state = "";
                 String order_state = "";
                 holder.setText(R.id.remark_tv, model.getOrderAttach());
+                holder.setText(R.id.tj_tv, model.getTiji());
+                holder.setText(R.id.zl_tv, model.getZhongliang());
+                holder.setText(R.id.car_type_tv, model.getChename());
                 //配送状态：0：未配送(0页面：抢单，1页面：到商家)，1.已接单。5到商家（配送中），2：配送中（配送完成），3：配送完成， 4：配送失败
                 switch (model.getSendstate()) {
                     case "0":
