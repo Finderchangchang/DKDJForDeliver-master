@@ -183,7 +183,7 @@ public class MainActivitys extends BaseActivity implements IMainView, IMainFragV
             }
         });
         titleBar.setLeftClick(() -> leftManager());
-
+        mainListener.changeQsState(right_click);
         //收工
         titleBar.setRightSWClick(() -> {
             builder.setTitle("提示");
@@ -203,6 +203,9 @@ public class MainActivitys extends BaseActivity implements IMainView, IMainFragV
                 holder.setText(R.id.xx_address_tv, model.getTogoAddress());
                 holder.setText(R.id.fb_time_tv, model.getAddtime());
                 holder.setText(R.id.remark_tv, model.getOrderAttach());
+                holder.setText(R.id.tj_tv, model.getTiji());
+                holder.setText(R.id.zl_tv, model.getZhongliang());
+                holder.setText(R.id.car_type_tv, model.getChename());
                 //图片空，不是图片订单，距离，用户，价钱，不为空。接单按钮才显示。电话需要不自己填写
                 if (model.getImgOrder() == null || model.getImgOrder().equals("") || model.getImgOrder().length() < 10 || model.getImgOrder() == "") {
                     holder.setText(R.id.jl1_tv, model.getJuLi());
@@ -458,7 +461,7 @@ public class MainActivitys extends BaseActivity implements IMainView, IMainFragV
 
     }
 
-    boolean right_click = true;
+    boolean right_click = false;
 
     @Override
     public void loadMoreOrder(List<OrderModel> list) {

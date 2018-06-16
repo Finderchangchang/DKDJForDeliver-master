@@ -49,9 +49,15 @@
         android:label="骑兵版"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
+        <!--公司电脑
+            27:C7:2D:85:E8:03:C5:EC:80:57:2A:B0:3F:C2:B2:B8:4F:60:7E:B3
+            key:6ffc38efb245260bbb0c11fd79470530
+            正式版
+            2a15b092618173ba9225a3fdf0c7f642
+        -->
         <meta-data
             android:name="com.amap.api.v2.apikey"
-            android:value="2a15b092618173ba9225a3fdf0c7f642" />
+            android:value="6ffc38efb245260bbb0c11fd79470530" />
 
         <activity android:name=".ui.WebActivity" />
         <activity
